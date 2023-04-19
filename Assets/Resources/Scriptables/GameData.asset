@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d61d0796d28e340953e0a11262c1ca, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  levels:
+  - {fileID: 11400000, guid: dada6d98fb5f28d47b0129b0a4eccc6f, type: 2}
+  - {fileID: 11400000, guid: 5500b1a5ef1da6148a3c9462088b4139, type: 2}
+  - {fileID: 11400000, guid: 73d3051f1f12bb54881e68d76c2a8662, type: 2}
+  enemies:
+  - EnemyType: 1
+    Health: 3
+    Speed: 1
+  - EnemyType: 2
+    Health: 10
+    Speed: 0.25
+  - EnemyType: 3
+    Health: 5
+    Speed: 0.5
+  defencers:
+  - DefencerType: 1
+    Directions: 1
+    Damage: 3
+    Range: 5
+    Interval: 3
+  - DefencerType: 2
+    Directions: 1
+    Damage: 5
+    Range: 2
+    Interval: 4
+  - DefencerType: 3
+    Directions: -1
+    Damage: 10
+    Range: 1
+    Interval: 5
